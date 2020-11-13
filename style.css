@@ -163,3 +163,193 @@ p {
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+
+h4{
+	color: #555;
+	font-weight: normal;
+}
+
+.col-4 p{
+	font-size: 14px;
+
+}
+
+.rating .fa{
+	color: #ff523b;
+}
+
+
+.col-4:hover{
+	transform: translateY(-5px);
+}
+
+/*----Offer----*/
+
+.offer{
+	background: rgb(255,175,189);
+    background: linear-gradient(90deg, rgba(255,175,189,0.7542892156862745) 31%, rgba(255,195,160,0.5077906162464986) 97%);
+	margin-top: 80px;
+	padding: 30px 0;
+}
+
+
+.col-2 .offer-img{
+ padding: 50px;
+}
+
+
+small {
+	color: #555;
+	display: inline-flex; /* keep the inline nature of buttons */
+    align-items: flex-start; /* this is default */
+
+}
+
+
+/* ------- footer ------*/
+
+.footer{
+	background: #fff;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+
+
+.footer p {
+	color: #8a8a8a;
+}
+
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+}
+
+
+.footer-col-1{
+	flex-basis: 30%;
+}
+
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+}
+
+.footer-col-2 img{
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+	flex-basis: 12%;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.app-logo{
+ margin-top: 20px;
+}
+
+.app-logo img{
+	width: 140px;
+}
+
+
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+
+.copyright{
+	text-align: center;
+
+}
+
+
+
+
+
+
+/* ------- Display menu icon for smaller screens ------*/
+.menu-icon{
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+}
+
+
+/* ------- Media query for menu ------*/
+/* ------- only for screens 800px or less ------*/
+
+@media only screen and (max-width: 800px){
+
+	nav ul{
+		position: absolute;
+		top: 70px;
+		left: 0;
+		background: #333;
+		width: 100%;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+       
+       nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }
+
+       nav ul li a{
+       	color: #fff;
+       }
+
+    .menu-icon{
+      display: block;
+      cursor: pointer;
+    }
+
+    .copyright{
+	text-align: center;
+    padding: 0; 
+   }
+}
+
+/* ------- only for screens 600px or less ------*/
+
+@media only screen and (max-width: 600px){
+
+	.row{
+	text-align: center;
+
+  }
+
+   .col-2, .col-3, .col-4{
+      flex-basis: 100%;
+   }
+
+
+
+.copyright{
+	text-align: center;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
